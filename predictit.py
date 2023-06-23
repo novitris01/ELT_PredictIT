@@ -12,7 +12,7 @@ start_date=airflow.utils.dates.days_ago(2) # 2 days ago
 default_args = {
     "owner": "airflow",
     "depends_on_past": False,
-    "email": ["airflow@example.com"],
+    "email": ["tj@noviat.com"],
     "email_on_failure": False,
     "email_on_retry": False,
     "retries": 1,
